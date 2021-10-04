@@ -1,0 +1,22 @@
+
+.banner{
+    background-image: url("../../images/man-with-laptop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    padding: 70px 0px;
+}
+.course-area h6{
+    color: #fe4a55;
+}
+.course-area h2{
+    color: #000;
+    font-size: 37px;
+    font-weight: 600;
+}
+.course-area p{
+    color: #606060;
+    font-weight: 500;
+    margin-top: 10px;
+margin-bottom: 30px;
+}

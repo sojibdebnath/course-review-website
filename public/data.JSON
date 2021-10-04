@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Bharath Tripathi",
+        "id": "1",
+        "course": "Java Web",
+        "language": "English",
+        "students": "3,221",
+        "price": "$20",
+        "review": "4.5",
+        "update": "9/2021",
+        "img": "https://image-gell.netlify.app/images/front.jpg",
+        "person": "https://image-gell.netlify.app/images/3.jpg"
+    },
+    {
+        "name": "Voorhees Jason",
+        "id": "2",
+        "course": "Project Management",
+        "price": "$23",
+        "language": "English",
+        "students": "2,321",
+        "review": "4.0",
+        "update": "9/2021",
+        "img": "https://image-gell.netlify.app/images/social.jpg",
+        "person": "https://image-gell.netlify.app/images/2.jpg"
+    },
+    {
+        "name": "Finch Jason",
+        "id": "3",
+        "course": "Python Course",
+        "price": "$29",
+        "language": "English",
+        "students": "2,441",
+        "review": "4.7",
+        "update": "5/2021",
+        "img": "https://image-gell.netlify.app/images/social.jpg",
+        "person": "https://image-gell.netlify.app/images/4.jpg"
+    },
+    {
+        "name": "Devconoy",
+        "id": "4",
+        "course": "Data Science",
+        "price": "$17",
+        "language": "English",
+        "students": "9,021",
+        "review": "4.6",
+        "update": "7/2021",
+        "img": "https://image-gell.netlify.app/images/social.jpg",
+        "person": "https://image-gell.netlify.app/images/5.jpg"
+    },
+    {
+        "name": "Mark Wood",
+        "id": "5",
+        "course": "Complete Ruby",
+        "price": "$30",
+        "language": "English",
+        "students": "2,891",
+        "review": "4.6",
+        "update": "2/2021",
+        "img": "https://image-gell.netlify.app/images/social.jpg",
+        "person": "https://image-gell.netlify.app/images/6.jpg"
+    },
+    {
+        "name": "Kanye",
+        "id": "6",
+        "course": "Shopify Aliexpress",
+        "price": "$39",
+        "language": "English",
+        "students": "2,131",
+        "review": "4.8",
+        "update": "9/2021",
+        "img": "https://image-gell.netlify.app/images/social.jpg",
+        "person": "https://image-gell.netlify.app/images/7.jpg"
+    },
+    {
+        "name": "Sottojit",
+        "id": "7",
+        "course": "MERN Stack",
+        "price": "$20",
+        "language": "English",
+        "students": "3,321",
+        "review": "4.7",
+        "update": "8/2021",
+        "img": "https://image-gell.netlify.app/images/social.jpg",
+        "person": "https://image-gell.netlify.app/images/8.jpg"
+    },
+    {
+        "name": "Rampal",
+        "id": "8",
+        "course": "Node JS",
+        "price": "$29",
+        "language": "English",
+        "students": "57,637",
+        "review": "4.8",
+        "update": "8/2021",
+        "img": "https://image-gell.netlify.app/images/social.jpg",
+        "person": "https://image-gell.netlify.app/images/9.jpg"
+    },
+    {
+        "name": "Varun",
+        "id": "9",
+        "course": "React Native",
+        "price": "$39",
+        "language": "English",
+        "students": "9,321",
+        "review": "4.8",
+        "update": "9/2021",
+        "img": "https://image-gell.netlify.app/images/social.jpg",
+        "person": "https://image-gell.netlify.app/images/1.jpg"
+    }
+]

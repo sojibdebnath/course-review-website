@@ -1,0 +1,60 @@
+.learntalk{
+    color: #fe4a55;
+}
+
+.us-tech{
+    color: #fe4a55;
+}
+.enrolled{
+    background-color: #F5F7FA;
+}
+.number{
+    color: #fe4a55;
+}
+.explore{
+    background-color: #fe4a55;
+    border: 1px solid #fe4a55;
+    font-size: 18px;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    display: inline-block;
+    transition: .5s;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.explore::before{
+    position: absolute;
+    content: "";
+    left: -50%;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #000;
+    z-index: -1;
+    transition: .5s;
+}
+.explore:hover{
+    border-color: #000;
+    color: #fff;
+}
+.explore::after{
+    position: absolute;
+    content: "";
+    right: -50%;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #000;
+    z-index: -1;
+    transition: .5s;
+}
+.explore:hover::before{
+    width: 50%;
+    left: 0;
+}
+.explore:hover::after{
+    width: 50%;
+    right: 0;
+}

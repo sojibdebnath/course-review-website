@@ -1,0 +1,90 @@
+.detail-contact h6{
+    color: #fe4a55;
+}
+.detail-contact h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.contact-section{
+    padding: 70px 0px;
+}
+.get-in{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(112, 109, 109, 0.925);
+}
+.contact-section h3{
+    font-size: 23px;
+    font-weight: 700;
+}
+.para{
+    font-weight: 500;
+}
+.heading{
+    font-size: 18px;
+    color: rgb(143, 133, 133);
+}
+.text-mail{
+    color: #fe4a55;
+    font-size: 17px;
+}
+.submit-btn{
+    background-color: #221638;
+border: 1px solid #221638;
+font-size: 18px;
+position: relative;
+z-index: 3;
+overflow: hidden;
+display: inline-block;
+transition: .5s;
+padding: 10px;
+border-radius: 5px;
+color: #fff;
+}
+.submit-btn::before{
+    position: absolute;
+    content: "";
+    left: -50%;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: lightsalmon;
+    z-index: -1;
+    transition: .5s;
+}
+.submit-btn:hover{
+    border-color: lightsalmon;
+    color: #fff;
+}
+.submit-btn::after{
+    position: absolute;
+    content: "";
+    right: -50%;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: lightsalmon;
+    z-index: -1;
+    transition: .5s;
+}
+.submit-btn:hover::before{
+    width: 50%;
+    left: 0;
+}
+.submit-btn:hover::after{
+    width: 50%;
+    right: 0;
+}
+.form-submit{
+    background-image: url("../../images/register-shape.jpg");
+    background-repeat: no-repeat;
+    padding:30px;
+    color: #fff;
+    border-radius: 5px;
+}
+.form-submit h2{
+    font-weight: 700;
+}
+.area-form{
+    margin-top: 40px;
+}

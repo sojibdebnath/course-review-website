@@ -1,0 +1,95 @@
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img img{
+    width: 140px;
+    margin-top: 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-top: 5px;
+}
+.menu li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+.menu li a:hover{
+    color:#fe4a55;
+}
+.menu li a{
+    text-decoration: none;
+    transition: 0.6s;
+   color: rgba(0,0,0,.8);
+   
+}
+.top-menu{
+    padding: 20px 0px;
+    box-shadow: 0px 0px 15px rgb(80 49 49 / 10%);
+}
+.register{
+background-color: #fe4a55;
+border: 1px solid #fe4a55;
+font-size: 18px;
+position: relative;
+z-index: 3;
+overflow: hidden;
+display: inline-block;
+transition: .5s;
+}
+.register::before{
+    position: absolute;
+    content: "";
+    left: -50%;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #111;
+    z-index: -1;
+    transition: .5s;
+}
+.register:hover{
+    border-color: #111;
+}
+.register::after{
+    position: absolute;
+    content: "";
+    right: -50%;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #111;
+    z-index: -1;
+    transition: .5s;
+}
+.register:hover::before{
+    width: 50%;
+    left: 0;
+}
+.register:hover::after{
+    width: 50%;
+    right: 0;
+}
+.input{
+    padding: 8px;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color:#fe4a55 ;
+    border-color: #F5F5F5;
+    box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+    border: 1px solid #fe4a55;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fe4a55;
+    border-color: #000;
+}
